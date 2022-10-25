@@ -21,6 +21,7 @@ return {
         "css-lsp",
         "html-lsp",
         "typescript-language-server",
+        "tailwindcss-language-server",
         "deno",
         "emmet-ls",
         "intelephense",
@@ -28,6 +29,7 @@ return {
         "php-cs-fixer",
 
         "prettierd",
+        "eslint_d",
         "vetur-vls",
       },
     },
