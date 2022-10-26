@@ -1,8 +1,21 @@
+local present, lspconfig = pcall(require, "lspconfig")
+
+if not present then
+  return
+end
+
 local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
-
-local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "clangd", "intelephense", "vuels", "tsserver", "tailwindcss", "emmet_ls" }
+local servers = {
+  "html",
+  "cssls",
+  "clangd",
+  "intelephense",
+  "vuels",
+  "tsserver",
+  "tailwindcss",
+  "emmet_ls",
+}
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {

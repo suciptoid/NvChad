@@ -12,6 +12,13 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
+  ["nvim-telescope/telescope.nvim"] = {
+    override_options = {
+      defaults = {
+        prompt_prefix = "   ",
+      },
+    },
+  },
   ["williamboman/mason.nvim"] = {
     override_options = {
       ensure_installed = {
