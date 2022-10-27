@@ -19,6 +19,19 @@ return {
       },
     },
   },
+  ["nvim-treesitter/nvim-treesitter"] = {
+    override_options = {
+      ensure_installed = {
+        "javascript",
+        "typescript",
+        "php",
+        "html",
+        "lua",
+        "css",
+        "markdown"
+      },
+    },
+  },
   ["williamboman/mason.nvim"] = {
     override_options = {
       ensure_installed = {
