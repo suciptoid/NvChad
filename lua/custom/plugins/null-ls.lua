@@ -19,8 +19,9 @@ local sources = {
   b.formatting.stylua,
 
   -- PHP
-  b.formatting.phpcsfixer,
+  -- b.formatting.phpcsfixer,
   b.diagnostics.phpcs,
+  b.formatting.phpcbf,
 
   -- Shell
   -- b.formatting.shfmt,

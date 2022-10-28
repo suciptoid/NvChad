@@ -46,7 +46,7 @@ return {
         "emmet-ls",
         "intelephense",
         "phpcs",
-        "php-cs-fixer",
+        "phpcbf",
 
         "prettierd",
         "eslint_d",
