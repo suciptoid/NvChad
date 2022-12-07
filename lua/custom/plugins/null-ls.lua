@@ -15,6 +15,8 @@ local sources = {
   b.code_actions.eslint_d,
   b.formatting.eslint_d,
 
+  b.formatting.prismaFmt,
+
   -- Lua
   b.formatting.stylua,
 

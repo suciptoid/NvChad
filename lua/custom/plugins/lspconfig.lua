@@ -15,6 +15,7 @@ local servers = {
   "tsserver",
   "tailwindcss",
   "emmet_ls",
+  "prismals"
 }
 
 for _, lsp in ipairs(servers) do
